@@ -1,3 +1,4 @@
+import ChefSection from "./components/ChefSection";
 import HeroSection from "./components/HeroSection";
 import ImproveSkills from "./components/ImproveSkills";
 import Navbar from "./components/Navbar";
@@ -11,6 +12,7 @@ function App() {
         <HeroSection />
         <ImproveSkills />
         <QuoteSection />
+        <ChefSection />
       </div>
     </div>
   );
