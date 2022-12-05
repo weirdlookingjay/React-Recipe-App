@@ -41,7 +41,7 @@ export default function Navbar() {
               to={link.path}
               key={link.name}
               className={
-                location.pathname == link.path
+                location.pathname === link.path
                   ? "sidebar-links active"
                   : "sidebar-links"
               }
